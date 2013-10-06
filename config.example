@@ -1,0 +1,11 @@
+# Rename to config.py after setting the fields below.
+XQUEUE_INTERFACE = {
+    "url": "XQUEUE URL",
+    "django_auth": {
+        "username": "USERNAME",
+        "password": "PASSWORD"
+    },
+    "basic_auth": ('USER', 'PASS'),
+}
+REQUESTS_TIMEOUT = 60    # seconds
+QUEUE_NAME = 'NAME'
